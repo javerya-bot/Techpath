@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact TechPath with questions, feedback, or collaboration enquiries.">
+  <title>Contact | TechPath</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="index.html">&lt;/&gt; Tech<span>Path</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#articles">Tutorials</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h1>Get in <span>Touch.</span></h1>
+      <p>Have a question, suggestion, or collaboration idea? Send us a message.</p>
+    </div>
+  </section>
+
+  <section class="content container contact-grid">
+    <div class="panel">
+      <p class="eyebrow">CONTACT DETAILS</p>
+      <h2>Fiza Shehzadi</h2>
+      <p class="muted">For technology questions, feedback, suggestions and collaboration enquiries, contact us by email.</p>
+
+      <h3>Email</h3>
+      <a class="email-link" href="mailto:ayllaa2405@gmail.com">
+        ayllaa2405@gmail.com
+      </a>
+
+      <p class="form-help">
+        Please do not send passwords, access tokens, or other sensitive information.
+      </p>
+    </div>
+
+    <div class="panel">
+      <p class="eyebrow">SEND A MESSAGE</p>
+      <h2>Write to us</h2>
+
+      <form
+        data-contact-form
+        action="https://formsubmit.co/ayllaa2405@gmail.com"
+        method="POST">
+
+        <input type="hidden" name="_subject" value="New TechPath website message">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Your name *</label>
+            <input id="name" name="name" type="text"
+              autocomplete="name" maxlength="100" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Your email *</label>
+            <input id="email" name="email" type="email"
+              autocomplete="email" maxlength="200" required>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="subject">Subject *</label>
+          <input id="subject" name="subject" type="text"
+            maxlength="150" required>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message"
+            minlength="10" maxlength="5000" required></textarea>
+        </div>
+
+        <button class="button" type="submit">Send Message →</button>
+
+        <p class="form-help">
+          This form uses an external service to deliver messages.
+          Review the service's privacy terms before use. The first
+          submission may require email activation.
+        </p>
+
+        <p class="form-status" data-form-status role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-top">
+    <a class="logo" href="index.html">&lt;/&gt; Tech<span>Path</span></a>
+    <p>Making technology easier to understand.</p>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </div>
+  <div class="container copyright">© <span data-year></span> TechPath.</div>
+</footer>
+</body>
+</html>

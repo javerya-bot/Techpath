@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS for Beginners | TechPath</title>
+  <meta name="description" content="Learn what HTML and CSS do and try a simple first web page.">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="../index.html">&lt;/&gt; Tech<span>Path</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#articles">Tutorials</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">WEB DEVELOPMENT</p>
+      <h1>HTML and CSS: <span>Your First Steps</span></h1>
+      <p>Understand how a website gets its structure and style.</p>
+    </div>
+  </section>
+
+  <article class="content container prose">
+    <h2>What Is HTML?</h2>
+    <p>HTML stands for HyperText Markup Language. It defines the
+    structure of web content, including headings, paragraphs, links
+    and images.</p>
+
+    <h2>What Is CSS?</h2>
+    <p>CSS stands for Cascading Style Sheets. It controls the visual
+    presentation of a page, such as colours, spacing, fonts and layouts.</p>
+
+    <h2>Your First Example</h2>
+    <p>Create a file named <code>index.html</code> and add this code:</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    h1 {
+      color: rebeccapurple;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, world!&lt;/h1&gt;
+  &lt;p&gt;I made my first web page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h2>How to Test It</h2>
+    <ol>
+      <li>Save the code as <code>index.html</code>.</li>
+      <li>Open the file in your browser.</li>
+      <li>Change the heading or colour and refresh the page.</li>
+    </ol>
+
+    <h2>What to Learn Next</h2>
+    <p>Practise links, images, lists, semantic HTML and responsive
+    CSS layouts. Try changing one thing at a time so you can see
+    how the result changes.</p>
+
+    <div class="callout">
+      <strong>Practice task:</strong> Add a second heading and a link
+      to a website. Explain to yourself what each HTML tag does.
+    </div>
+
+    <p><a href="../index.html#articles">← Back to tutorials</a></p>
+  </article>
+</main>
+
+<footer class="footer">
+  <div class="container footer-top">
+    <a class="logo" href="../index.html">&lt;/&gt; Tech<span>Path</span></a>
+    <p>Making technology easier to understand.</p>
+    <div class="footer-links">
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+      <a href="../privacy-policy.html">Privacy Policy</a>
+    </div>
+  </div>
+  <div class="container copyright">© <span data-year></span> TechPath.</div>
+</footer>
+</body>
+</html>

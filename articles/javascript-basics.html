@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Basics | TechPath</title>
+  <meta name="description" content="Learn JavaScript variables and values with beginner-friendly examples.">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="../index.html">&lt;/&gt; Tech<span>Path</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#articles">Tutorials</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">CODING BASICS</p>
+      <h1>JavaScript <span>Basics</span></h1>
+      <p>Learn about variables and values, two important building blocks of JavaScript.</p>
+    </div>
+  </section>
+
+  <article class="content container prose">
+    <h2>What Is JavaScript?</h2>
+    <p>JavaScript is a programming language used to add behaviour
+    and interactivity to websites. It can respond to button clicks,
+    update page content and validate form fields.</p>
+
+    <h2>What Is a Variable?</h2>
+    <p>A variable is a named place to store a value so that your
+    program can use it later. Use <code>const</code> when you do
+    not need to reassign a variable, and <code>let</code> when
+    reassignment is needed.</p>
+
+    <pre><code>const siteName = "TechPath";
+let lessonsCompleted = 0;
+
+lessonsCompleted = lessonsCompleted + 1;
+
+console.log(siteName);
+console.log(lessonsCompleted);</code></pre>
+
+    <h2>Common Data Types</h2>
+    <ul>
+      <li><strong>String:</strong> Text such as <code>"Hello"</code>.</li>
+      <li><strong>Number:</strong> A number such as <code>42</code>.</li>
+      <li><strong>Boolean:</strong> <code>true</code> or <code>false</code>.</li>
+      <li><strong>Array:</strong> An ordered collection of values.</li>
+      <li><strong>Object:</strong> A collection of named properties.</li>
+    </ul>
+
+    <h2>Try It Yourself</h2>
+    <p>Open your browser's developer tools and select the Console tab.
+    Type the example above and press Enter to see the output.</p>
+
+    <h2>Practice Task</h2>
+    <p>Create a variable containing the name of your favourite
+    programming language. Use <code>console.log()</code> to display it.
+    Then try changing the value and running the code again.</p>
+
+    <div class="callout">
+      Tip: Use meaningful variable names and read error messages
+      carefully. Test one change at a time.
+    </div>
+
+    <p><a href="../index.html#articles">← Back to tutorials</a></p>
+  </article>
+</main>
+
+<footer class="footer">
+  <div class="container footer-top">
+    <a class="logo" href="../index.html">&lt;/&gt; Tech<span>Path</span></a>
+    <p>Making technology easier to understand.</p>
+    <div class="footer-links">
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+      <a href="../privacy-policy.html">Privacy Policy</a>
+    </div>
+  </div>
+  <div class="container copyright">© <span data-year></span> TechPath.</div>
+</footer>
+</body>
+</html>
